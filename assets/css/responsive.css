@@ -1,0 +1,35 @@
+
+@media only screen and (max-width: 1200px){
+    #navbar .nav-links #my-nav-links{
+        display: block;
+        float: left;
+        width: 100%;
+        transform: translateY(0px);
+        text-align: center;
+        height: 0px;
+        overflow: hidden;
+        
+    }
+    #navbar .nav-links a{
+        padding: 10px 40px;
+        text-transform: uppercase;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    #checkBtn:checked ~ #my-nav-links{
+        height: 100%;
+        transition: .5s;
+        padding: 30px 0;
+        background-color: rgba(255, 255, 255, 0.765);
+        text-shadow: 1px 1px 3px grey;
+    }
+    #openNav{
+        display: block;
+    }
+  
+}
+@media only screen and (max-width: 1000px){
+  
+    
+}
