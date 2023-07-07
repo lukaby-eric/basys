@@ -15,6 +15,7 @@ var navLink7= document.getElementById("nav-link7");
 function myFunction() {
   if (window.pageYOffset >= 100) {
     navbar.style.background="white";
+    navbar.style.top="0";
     navbar.style.boxShadow="1px 1px 5px grey";
     logoimg.src= ("assets/images/BASYS-Logo_Color-RGB_W2Registered_Mark.png");
     navBeforee.style.display="none";
