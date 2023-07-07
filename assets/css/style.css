@@ -33,7 +33,7 @@
 #navbar .nav-links ul{
     display: flex;
     float: right;
-    transform: translateY(-52px);
+    transform: translateY(-55px);
 }
 #navbar .nav-links a{
     color: white;
