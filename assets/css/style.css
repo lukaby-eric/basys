@@ -4,7 +4,7 @@
     scroll-behavior: smooth;
     list-style: none;
     box-sizing: border-box;
-    /* font-family: 'Yu Gothic Light'; */
+    font-family: 'Yu Gothic Light';
     text-decoration: none;
     transition: .4s;
     z-index: 11;
